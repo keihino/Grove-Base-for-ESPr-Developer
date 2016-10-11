@@ -531,25 +531,19 @@ DIN A5, landscape with doc field</description>
 <part name="J2" library="Seeed-OPL-Connector" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
 <part name="GND" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA5_L" device=""/>
-<part name="T1" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
-<part name="T2" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
 <part name="T3" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
 <part name="T4" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
 <part name="T5" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
 <part name="T6" library="we-transistor" deviceset="MOSFET-N" device="-SOT23"/>
 <part name="R15" library="Seeed-OPL-Resistor" deviceset="SMD-RES-100K-1%-1/10W(0603)" device="" value="27K"/>
-<part name="R3" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R4" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R5" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R6" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R7" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R8" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R9" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R10" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R11" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R12" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R13" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
-<part name="R14" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="1K"/>
+<part name="R7" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R8" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R9" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R10" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R11" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R12" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R13" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
+<part name="R14" library="Seeed-OPL-Resistor" deviceset="SMD-RES-220K-1%-1/10W(0603)" device="" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -566,17 +560,11 @@ DIN A5, landscape with doc field</description>
 <instance part="J2" gate="G$1" x="45.72" y="105.41"/>
 <instance part="GND" gate="1" x="50.8" y="60.96"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="T1" gate="T" x="101.6" y="78.74"/>
-<instance part="T2" gate="T" x="101.6" y="45.72"/>
 <instance part="T3" gate="T" x="129.54" y="78.74"/>
 <instance part="T4" gate="T" x="129.54" y="45.72"/>
 <instance part="T5" gate="T" x="157.48" y="78.74"/>
 <instance part="T6" gate="T" x="157.48" y="45.72"/>
 <instance part="R15" gate="G$1" x="50.8" y="71.12" rot="R90"/>
-<instance part="R3" gate="G$1" x="101.6" y="66.04" rot="R90"/>
-<instance part="R4" gate="G$1" x="109.22" y="86.36" rot="R180"/>
-<instance part="R5" gate="G$1" x="101.6" y="33.02" rot="R90"/>
-<instance part="R6" gate="G$1" x="109.22" y="53.34" rot="R180"/>
 <instance part="R7" gate="G$1" x="129.54" y="66.04" rot="R270"/>
 <instance part="R8" gate="G$1" x="137.16" y="86.36"/>
 <instance part="R9" gate="G$1" x="129.54" y="33.02" rot="R90"/>
@@ -659,14 +647,9 @@ DIN A5, landscape with doc field</description>
 <label x="11.43" y="34.29" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T2" gate="T" pin="S"/>
-<wire x1="101.6" y1="36.83" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="38.1" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
-<junction x="101.6" y="38.1"/>
-<label x="104.14" y="38.1" size="1.778" layer="95"/>
-<label x="104.14" y="38.1" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="8.89" y1="106.68" x2="19.05" y2="106.68" width="0.1524" layer="91"/>
+<label x="8.89" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IO13" class="0">
@@ -708,13 +691,9 @@ DIN A5, landscape with doc field</description>
 <label x="11.43" y="26.67" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="T" pin="S"/>
-<wire x1="101.6" y1="69.85" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="71.12" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
-<junction x="101.6" y="71.12"/>
-<label x="104.14" y="71.12" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="8.89" y1="109.22" x2="19.05" y2="109.22" width="0.1524" layer="91"/>
+<label x="8.89" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -731,30 +710,14 @@ DIN A5, landscape with doc field</description>
 <label x="34.29" y="44.45" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="53.34" x2="113.03" y2="53.34" width="0.1524" layer="91"/>
-<label x="119.38" y="55.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="149.86" y1="53.34" x2="140.97" y2="53.34" width="0.1524" layer="91"/>
 <label x="149.86" y="55.88" size="1.778" layer="95" rot="R180"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="86.36" x2="113.03" y2="86.36" width="0.1524" layer="91"/>
-<label x="119.38" y="88.9" size="1.778" layer="95" rot="R180"/>
-<label x="119.38" y="88.9" size="1.778" layer="95" rot="R180"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="140.97" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
 <label x="149.86" y="88.9" size="1.778" layer="95" rot="R180"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="8.89" y1="104.14" x2="19.05" y2="104.14" width="0.1524" layer="91"/>
-<label x="8.89" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -873,28 +836,6 @@ DIN A5, landscape with doc field</description>
 <label x="11.43" y="21.59" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="T1" gate="T" pin="G"/>
-<wire x1="96.52" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="88.9" y="76.2" size="1.778" layer="95"/>
-<wire x1="93.98" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<junction x="93.98" y="76.2"/>
-<wire x1="101.6" y1="60.96" x2="101.6" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="T2" gate="T" pin="G"/>
-<wire x1="96.52" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="43.18" size="1.778" layer="95"/>
-<wire x1="93.98" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="43.18" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
-<junction x="93.98" y="43.18"/>
-<wire x1="101.6" y1="29.21" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="T3" gate="T" pin="G"/>
 <wire x1="124.46" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <label x="116.84" y="76.2" size="1.778" layer="95"/>
@@ -938,46 +879,17 @@ DIN A5, landscape with doc field</description>
 <wire x1="157.48" y1="29.21" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="8.89" y1="104.14" x2="19.05" y2="104.14" width="0.1524" layer="91"/>
+<label x="8.89" y="104.14" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="77.47" x2="50.8" y2="74.93" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="IO14_5V" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="8.89" y1="109.22" x2="19.05" y2="109.22" width="0.1524" layer="91"/>
-<label x="8.89" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="105.41" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="86.36" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="T1" gate="T" pin="D"/>
-<wire x1="101.6" y1="83.82" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<junction x="101.6" y="86.36"/>
-<label x="109.22" y="91.44" size="1.778" layer="95" rot="R180"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="IO15_5V" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="8.89" y1="106.68" x2="19.05" y2="106.68" width="0.1524" layer="91"/>
-<label x="8.89" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="105.41" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="T2" gate="T" pin="D"/>
-<wire x1="101.6" y1="53.34" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="53.34" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
-<junction x="101.6" y="53.34"/>
-<label x="109.22" y="58.42" size="1.778" layer="95" rot="R180"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IO12_5V" class="0">
